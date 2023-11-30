@@ -145,4 +145,20 @@ const giveMeRandom = function (n) {
   }
   return array;
 };
-console.log(giveMeRandom(5));
+console.log(giveMeRandom(10));
+
+//---------------------------------------------------------------EXTRA--------------------------------------------------------------------------------------
+
+const checkArray = function (insertArrayGenerator) {
+  let sum = 0;
+  for (let i = 0; i < insertArrayGenerator.length; i++) {
+    const number = insertArrayGenerator[i];
+    if (number > 5) {
+      console.log(number);
+      sum += number;
+    }
+  }
+  console.log("Somma degli elementi superiori a 5: " + sum);
+};
+// const generatorArray = giveMeRandom(10);
+console.log(checkArray(giveMeRandom(10)));
