@@ -162,3 +162,5 @@ const checkArray = function (insertArrayGenerator) {
 };
 // const generatorArray = giveMeRandom(10);
 console.log(checkArray(giveMeRandom(10)));
+
+//non sò perchè mi da undefined dopo aver stampato in console
