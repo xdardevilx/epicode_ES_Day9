@@ -140,8 +140,8 @@ console.log(cutString("ciao io sono valerio"));
 const giveMeRandom = function (n) {
   let array = [];
   for (let i = 0; i < n; i++) {
-    const ranondNumber = Math.floor(Math.random() * 11);
-    array.push(ranondNumber);
+    const randomNumber = Math.floor(Math.random() * 11);
+    array.push(randomNumber);
   }
   return array;
 };
