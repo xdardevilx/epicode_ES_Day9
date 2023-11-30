@@ -159,8 +159,9 @@ const checkArray = function (insertArrayGenerator) {
     }
   }
   console.log("Somma degli elementi superiori a 5: " + sum);
+  
 };
 // const generatorArray = giveMeRandom(10);
-console.log(checkArray(giveMeRandom(10)));
-
+// console.log(checkArray(giveMeRandom(10)));
+checkArray(giveMeRandom(10))
 //non sò perchè mi da undefined dopo aver stampato in console
